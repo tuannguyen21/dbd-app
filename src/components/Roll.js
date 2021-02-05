@@ -1,35 +1,27 @@
 import React from "react";
 import {perks} from './Images';
-import image1 from '../perks/perk1.png';
 
 class Roll extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        randomRoll: Array(4).fill(-1),
-        randomPath: Array(4).fill("")
+        randomPaths: Array(4).fill("")
       }
       this.handleClick = this.handleClick.bind(this);
     }
   
     handleClick() {
-      const min = 0;
-      const max = 79;
-      const randomRoll = this.state.randomRoll.slice();
-      const randomPath = this.state.randomPath.slice();
-      randomRoll.fill(-1);
+      const randomPaths = this.state.randomPaths.slice();
       let i = 0;
       while ( i < 4 ) {
-        const rand = Math.floor(Math.random() * 0.99 * (max - min + 1) + min);
-        if (randomRoll.includes(perks[rand].valueVar) == 0){
-            randomRoll[i] = perks[rand].valueVar
-            randomPath[i] = perks[rand].pathVar;
+        const randPath = perks[Math.floor(Math.random() * perks.length)];
+        if (randomPaths.includes(randPath) == 0){
+            randomPaths[i] = randPath;
             i++;
         }
       }
       this.setState({
-        randomRoll: randomRoll,
-        randomPath: randomPath
+        randomPaths: randomPaths
       });
     }
   
@@ -43,7 +35,7 @@ class Roll extends React.Component {
               <a href="#" class="img-clip-wrap">
                 <div class="overlay">
                   <div class="overlay-content">
-                    <img src={image1}></img>
+                    <img src={this.state.randomPaths[0]}></img>
                   </div>
                 </div>
               </a>
@@ -53,7 +45,7 @@ class Roll extends React.Component {
               <a href="#" class="img-clip-wrap">
                 <div class="overlay">
                   <div class="overlay-content">
-                    <img src={this.state.randomPath[1]}></img>
+                    <img src={this.state.randomPaths[1]}></img>
                   </div>
                 </div>
               </a>
@@ -61,7 +53,7 @@ class Roll extends React.Component {
               <a href="#" class="img-clip-wrap">
                 <div class="overlay">
                   <div class="overlay-content">
-                    <img src={this.state.randomPath[2]}></img>
+                    <img src={this.state.randomPaths[2]}></img>
                   </div>
                 </div>
               </a>
@@ -71,7 +63,7 @@ class Roll extends React.Component {
               <a href="#" class="img-clip-wrap polygon-clip-rhombus">
                 <div class="overlay">
                   <div class="overlay-content">
-                    <img src={this.state.randomPath[3]}></img>
+                    <img src={this.state.randomPaths[3]}></img>
                   </div>
                 </div>
               </a>
