@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dbd-app/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/dbd-app/static/js/main.d0472592.chunk.js",
+    "main.js.map": "/dbd-app/static/js/main.d0472592.chunk.js.map",
+    "runtime-main.js": "/dbd-app/static/js/runtime-main.d977974f.js",
+    "runtime-main.js.map": "/dbd-app/static/js/runtime-main.d977974f.js.map",
+    "static/js/2.3477cf51.chunk.js": "/dbd-app/static/js/2.3477cf51.chunk.js",
+    "static/js/2.3477cf51.chunk.js.map": "/dbd-app/static/js/2.3477cf51.chunk.js.map",
+    "static/js/3.903f285a.chunk.js": "/dbd-app/static/js/3.903f285a.chunk.js",
+    "static/js/3.903f285a.chunk.js.map": "/dbd-app/static/js/3.903f285a.chunk.js.map",
+    "index.html": "/dbd-app/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/dbd-app/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.3477cf51.chunk.js.LICENSE.txt": "/dbd-app/static/js/2.3477cf51.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/dbd-app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d977974f.js",
+    "static/js/2.3477cf51.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.d0472592.chunk.js"
+  ]
+}
