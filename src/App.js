@@ -4,24 +4,26 @@ import Roll from './components/Roll';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <div>
+    <div>
+      <body>
+        <header class="page-header pt-4 pb-1">
+          <h1>
+            Dead by Daylight Perks Randomizer
+          </h1>
+        </header>
+        <main>
           <Roll />
-        </div>
-      </header>
+        </main>
+        <footer class="page-footer pt-4 pb-1 footer">
+          <p class="text-center white-text">
+            <i class="fas fa-code"></i>
+            Made by tuannguyen21
+            <i class="fas fa-code"></i>
+            <br /><br />
+              Disclaimer: All material (Pictures, etc...) belongs to their appropriate owners.
+          </p>
+        </footer>
+      </body>
     </div>
   );
 }

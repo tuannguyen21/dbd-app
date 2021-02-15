@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './css/bootstrap.css';
+import './css/mdb-free.css';
+import './css/mdb-lite-free.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
