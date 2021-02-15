@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/dbd-app/static/css/main.7d180cbf.chunk.css",
-    "main.js": "/dbd-app/static/js/main.5ceada63.chunk.js",
-    "main.js.map": "/dbd-app/static/js/main.5ceada63.chunk.js.map",
-    "runtime-main.js": "/dbd-app/static/js/runtime-main.9411c3ef.js",
-    "runtime-main.js.map": "/dbd-app/static/js/runtime-main.9411c3ef.js.map",
-    "static/js/2.8c245e4b.chunk.js": "/dbd-app/static/js/2.8c245e4b.chunk.js",
-    "static/js/2.8c245e4b.chunk.js.map": "/dbd-app/static/js/2.8c245e4b.chunk.js.map",
-    "static/js/3.ef46152f.chunk.js": "/dbd-app/static/js/3.ef46152f.chunk.js",
-    "static/js/3.ef46152f.chunk.js.map": "/dbd-app/static/js/3.ef46152f.chunk.js.map",
+    "main.css": "/dbd-app/static/css/main.bbf672c2.chunk.css",
+    "main.js": "/dbd-app/static/js/main.8136efee.chunk.js",
+    "main.js.map": "/dbd-app/static/js/main.8136efee.chunk.js.map",
+    "runtime-main.js": "/dbd-app/static/js/runtime-main.2208a8dc.js",
+    "runtime-main.js.map": "/dbd-app/static/js/runtime-main.2208a8dc.js.map",
+    "static/js/2.3c7de881.chunk.js": "/dbd-app/static/js/2.3c7de881.chunk.js",
+    "static/js/2.3c7de881.chunk.js.map": "/dbd-app/static/js/2.3c7de881.chunk.js.map",
+    "static/js/3.d12f1660.chunk.js": "/dbd-app/static/js/3.d12f1660.chunk.js",
+    "static/js/3.d12f1660.chunk.js.map": "/dbd-app/static/js/3.d12f1660.chunk.js.map",
     "index.html": "/dbd-app/index.html",
-    "static/css/main.7d180cbf.chunk.css.map": "/dbd-app/static/css/main.7d180cbf.chunk.css.map",
-    "static/js/2.8c245e4b.chunk.js.LICENSE.txt": "/dbd-app/static/js/2.8c245e4b.chunk.js.LICENSE.txt",
+    "static/css/main.bbf672c2.chunk.css.map": "/dbd-app/static/css/main.bbf672c2.chunk.css.map",
+    "static/js/2.3c7de881.chunk.js.LICENSE.txt": "/dbd-app/static/js/2.3c7de881.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/dbd-app/static/media/logo.6ce24c58.svg",
+    "static/media/App.css": "/dbd-app/static/media/perk.360b4e04.png",
     "static/media/perk0.47752879.png": "/dbd-app/static/media/perk0.47752879.png",
     "static/media/perk1.ef066b19.png": "/dbd-app/static/media/perk1.ef066b19.png",
     "static/media/perk10.c03a9466.png": "/dbd-app/static/media/perk10.c03a9466.png",
@@ -47,9 +48,9 @@
     "static/media/perk9.7b5b89a0.png": "/dbd-app/static/media/perk9.7b5b89a0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9411c3ef.js",
-    "static/js/2.8c245e4b.chunk.js",
-    "static/css/main.7d180cbf.chunk.css",
-    "static/js/main.5ceada63.chunk.js"
+    "static/js/runtime-main.2208a8dc.js",
+    "static/js/2.3c7de881.chunk.js",
+    "static/css/main.bbf672c2.chunk.css",
+    "static/js/main.8136efee.chunk.js"
   ]
 }
